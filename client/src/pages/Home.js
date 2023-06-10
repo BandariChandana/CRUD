@@ -4,6 +4,7 @@ import "./Home.css";
 import { toast } from "react-toastify";
 import axios from "axios";
 
+
 const Home = () => {
   const [data, setData] = useState([]);
 
@@ -25,6 +26,7 @@ const Home = () => {
   };
 
   return (
+
     <div style={{ marginTop: "150px" }}>
       <Link to="/addContact">
         <button className="btn btn-contact">Add Contact</button>
@@ -66,7 +68,13 @@ const Home = () => {
           })}
         </tbody>
       </table>
+      <div>
+        <Link to="/">
+        <button type="submit">Go Back</button>
+        </Link>
+      </div>
     </div>
+    
   );
 };
 

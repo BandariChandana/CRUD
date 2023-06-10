@@ -33,7 +33,7 @@ const View = () => {
                 <span>{user.contact}</span>
                 <br/>
                 <br/>
-                <Link to="/">
+                <Link to="/home">
                     <div className="btn btn-edit">Go Back</div>
                 </Link>
             </div>

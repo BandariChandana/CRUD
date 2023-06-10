@@ -98,7 +98,7 @@ const AddEdit = () => {
           onChange={handleInputChange}
         />
         <input type="submit" value={id ? "Update" : "Save"} />
-        <Link to="/">
+        <Link to="/home">
           <input type="button" value="Go Back" />
         </Link>
       </form>

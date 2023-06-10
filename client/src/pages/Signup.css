@@ -1,0 +1,73 @@
+.app{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    height:100vh;
+    background-color: blue;
+
+}
+
+
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .list-container {
+    display: flex;
+
+  }
+  .list {
+    display: flex;
+    padding:6px 0px;
+    
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+
+  .input-email{
+    width:100%;
+    padding:8px;
+    border-radius: 3px;
+  }
+  .input-password{
+    width:87%;
+    padding:10px 17px;
+    border-radius: 3px;
+  }
+
+  
+ .button{
+    background: rgb(184, 9, 184);
+    border-radius: 5px;
+    padding:6px 30px; 
+    border-color: transparent;
+    color: white;
+ }
+ .log{
+    padding:15px;
+ }
+ .button:hover{
+  background-color: rgb(84, 84, 234);
+ }
+
+ .button-container{
+    background-color:rgb(38, 170, 180);
+    border-radius: 5px;
+    border-color: transparent;
+    width:150px;
+    padding:10px;
+    color:white;
+ }
+ .button-container:hover{
+    background-color:rgb(15, 161, 228) ;
+ }
