@@ -62,6 +62,8 @@ const Home = () => {
                   <Link to={`/view/${item.id}`}>
                     <button className="btn btn-view">View</button>
                   </Link>
+                  <Link to="/share">
+                  <button className="btn btn-share">Share</button></Link>
                 </td>
               </tr>
             );

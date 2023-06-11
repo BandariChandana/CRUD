@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import View from "./pages/View";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Share from "./pages/Share";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/addContact" component={AddEdit} />
           <Route path="/update/:id" component={AddEdit} />
           <Route path="/view/:id" component={View} />
+          <Route path="/share" component={Share}/>
         </Switch>
       </div>
     </BrowserRouter>
